@@ -1,8 +1,13 @@
 {
   "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "https://portx.framer.ai/:path*"
+    { 
+      "source": "/", 
+      "destination": "https://portx.framer.ai/" 
+    },
+    { 
+      "source": "/:match*", 
+      "destination": "https://portx.framer.ai/:match*" 
     }
   ]
 }
+
