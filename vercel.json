@@ -2,11 +2,11 @@
   "rewrites": [
     { 
       "source": "/", 
-      "destination": "https://portx.framer.ai/" 
+      "destination": "https://rajdeep-algorix.framer.website/" 
     },
     { 
       "source": "/:match*", 
-      "destination": "https://portx.framer.ai/:match*" 
+      "destination": "https://rajdeep-algorix.framer.website/:match*" 
     }
   ]
 }
